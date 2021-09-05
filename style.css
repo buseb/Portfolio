@@ -1,4 +1,4 @@
-                                               *{
+*{
     margin: 0;
     padding: 0;
     box-sizing :border-box;
@@ -21,9 +21,6 @@ header{
     justify-content:space-between;
     height: 100%;
     width: 100%;
-    /*
-    min-width: 1024px;
-    min-height: 768px;*/
     left: 0px;
     top:0px;
     
@@ -242,7 +239,7 @@ span{
     width: 475px;
     height: 90px;
     left: 165px;
-    top: 450px;
+    top: 409px;
 
     font-family: Poppins;
     font-style: normal;
@@ -450,134 +447,88 @@ ion-icon{
       
      
     }
+
+.review{
+    /* Review */
+
+position: absolute;
+width: 1110px;
+height: 584px;
+left: 165px;
+top: 850px;
+
+
+
+
+
+
+}
     
 .hero-info-background{
 
-        position: absolute;
-        background: #c4c4c4;
+
+position: absolute;
+width: 1440px;
+height: 684px;
+left: 0px;
+background: #C4C4C4;
+
     
     }
 
+
 .hero-frame{
-        position: absolute;
-        width: 1110px;
-        height: 584px;
-        left: 230px;
-        top: 980px;
-        background: #e9e9e9;
-        border-radius: 45px;
-        
+    position: absolute;
+    width: 1110px;
+    height: 584px;
+    left: 3%;
+    top: 27%;
+    
+    background: #E9E9E9;
+    border-radius: 45px;
+    
     
     }
 
     
 .images2{
 
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    width: 750px;
-    height: auto;
-    left: 70px;
-    top: 1000px;
-    border-radius: 30px;
-   
+   /* Image */
+
+position: absolute;
+width: 350px;
+height: 458px;
+left: 5%;
+top: 35%;
+
+
+background: url(2.jpg);
 
 }
 
-.complete{
+
+.hero-info-2{
     position: absolute;
-    width: 163px;
-    height: 62px;
+    width: 570px;
+    height: 180px;
     left: 640px;
-    top: 913px;
+    top: 1162px;
 
     font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 62px;
-    color: #2F2F2F;
-    
-    
-
-}
-
-.complete{
-    position: absolute;
-    width: 237px;
-    height: 98px;
-    left: 640px;
-    top: 500px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    
-    line-height: 62px;
-    color: #2F2F2F ;
-
-}
-
-
-span.plus{
-
-    color:#8ed2a9;
-    font-size: 50px;
-}
-
-td.Project{
-    font-size: 50px;
-}
-
-td.Project-Complete{
-    position: absolute;
-    width: 237px;
-    height: 36px;
-   
-    font-size: 24px;
-    line-height: 36px;
     font-style: normal;
     font-weight: normal;
-    color: #828282;
+    font-size: 24px;
+    line-height: 45px;
 
-}
-
-td.Positive-Reviews{
-    position: absolute;
-    width: 67px;
-    height: 62px;
-    left: 926px;
-    top: 913px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 62px;
-
-    display: flex;
-    align-items: center;
-    color: #2f2f2f;
-}
-
-td.Positive-Review{
-    position: absolute;
-    width: 199px;
-    height: 36px;
-    left: 926px;
-    top: 975px;
-
-    font-family: Poppins;
-
+    color: #000000;
 }
 
 .hero-info-header{
     position: absolute;
     width: 419px;
     height: 62px;
-    left: 640px;
-    top:1081px;
+    left: 40%;
+    top: 50%;
 
   /*  margin-left:9%;
     margin-top: 0.1%;
@@ -591,28 +542,17 @@ td.Positive-Review{
     color: #151517;
 }
     
-.hero-info-2{
-    
+td.Project{
     position: absolute;
-    width: 570px;
-    height: 180px;
-    left: 640px;
-    top: 1162px;
-    
-    /*margin-left:9%;
-    margin-top: 0.1%;
-    margin-right: 30%;*/
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 45px;
-    text-align:center;
-    color: #000;
-    
+    left: 25%;
+    top: 7%;
 }
 
-
+td.Positive-reviews{
+    position: absolute;
+    left: 50%;
+    top: 7%;
+}
     
 @media only screen and (max-width:768px ) {
     
