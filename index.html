@@ -21,24 +21,23 @@
 </head>
 <body>
 
+  <!-- HEADER-->
 <main class="container">
-  <header class="header">
+  <header class="header" id="header">
     
     <!--NAVBAR container-->
   <div id="container">
     <div class="wrapper">
-        <nav>
+        <nav class="nav-container">
             
-            <div class="navbar" style=" width: 1519px;">
-                <div class="brand">
-                    Ariene Rey
-                </div>
+            <div class="navbar" style=" width: 1519px;  height: 100px;">
+                <a href="index.html" class="nav-logo" style="text-decoration:none;">Ariene Rey</a>
 
-                <div class="menu">
-                <a class="navbar-home" href="#home">Anasayfa</a>
-                <a class="navbar-about" href="#about">About</a>
-                <a class="navbar-project" href="#project">Project</a>
-                <a class="navbar-contact"href="#contact">Contact</a>
+                <div class="nav-menu" id="nav-menu">
+                <a  class="navbar-home" href="#home">Home</a>
+                <a  class="navbar-about" href="#about">About</a>
+                <a  class="navbar-project" href="#project">Project</a>
+                <a  class="navbar-contact" href="#contact">Contact</a>
                 </div>
             </div>
             
@@ -50,9 +49,9 @@
 <div class="home-textbox">
     <h1 class="hero-title">Hey!</h1>
     <h1 class="hero-header" >I'm <span>Ariene Rey</span>. </br> an Web/Frontend Developer.</h1>
-   <!--<line class="hero-linevector"></line>--> 
-
+    
     <div class="hero-info">
+        &ensp;
         <p>UX Designer based in Jakarta, Indonesia.
             I am designing with a minimal and beautiful design in mind.</p>
     
@@ -63,10 +62,10 @@
 <div class="social-media-icons">
     <ul>
         
-        <li type="button" onclick="window.location='www.linkedin.com/in/buse-bah%C5%9Fi-5248b1108/'"><ion-icon name="logo-linkedin"></ion-icon></li>
-        <li type="button" onclick="window.location='github.com/buseb'"><ion-icon name="logo-github"></ion-icon></li>
-        <li type="button" onclick="window.location.href= 'mailto:buse.bahsi@gmail.com'"><ion-icon name= "mail-outline"></ion-icon></li>
-        <li type="button" onclick="window.location='www.instagram.com/busebahsi/'"><ion-icon name="logo-instagram"></ion-icon></li>
+        <li type="button" style="background-color: #F1F1F1;" onclick="window.location='www.linkedin.com/in/buse-bah%C5%9Fi-5248b1108/'"><ion-icon name="logo-linkedin"></ion-icon></li>
+        <li type="button" style="background-color: #F1F1F1;" onclick="window.location='github.com/buseb'"><ion-icon name="logo-github"></ion-icon></li>
+        <li type="button" style="background-color: #F1F1F1;" onclick="window.location.href= 'mailto:buse.bahsi@gmail.com'"><ion-icon name= "mail-outline"></ion-icon></li>
+        <li type="button" style="background-color: #F1F1F1;" onclick="window.location='www.instagram.com/busebahsi/'"><ion-icon name="logo-instagram"></ion-icon></li>
     </ul>
 </div>
 
@@ -80,7 +79,7 @@
 
 </div>
 
-<div class="dotImage">
+<div class="dotImage" style="width: 240px; height: 179.46px;">
     <img src="image/dot.svg" alt="profile-circle"/>
 
 </div>
@@ -91,14 +90,15 @@
 </div>
 </header>
 
+<!-- CONTENT-1-->
 <div type="content" class="hero-information">
-<div type="background"class="hero-info-background" style="width: 1600px; height: 684px; left: 0px; top: 960px; ">
+<div type="background"class="hero-info2-background" style="width: 1600px; height: 684px; left: 0px; top: 960px; ">
    
 </div>
 
-<div class="review" style="width: 1110px; height: 584px; left: 165px; top:850px ;" >
+<div type="content" class="review1" style="width: 1110px; height: 584px; left: 165px; top:850px ;" >
     <div class="hero-frame">
-    <div type="content" class="complete" style=" left: 450px; top:5px;  " >
+    <div class="complete" style=" left: 450px; top:5px;  " >
        <table class="table">
             <tbody>
               <tr>
@@ -124,11 +124,21 @@
         platforms and brand’s touchpoints.</p>
 </div>
 
-
-
-
-
 </div></div>
+
+<!--CONTENT-2-->
+<div type="content" class="Recent-Projects-Content">
+    <div class="Recent-Projects-Frame" style="top:15%;left: 0%;background-color: #F1F1F1;">
+        <div class="Recent-Project-Header" style="color: #151517; top: 25%; font-size: 24px;">
+            <h1> Recent Projects</h1>
+        </div>
+        <div class="View-More-Button" > 
+            <button style="background-color:#EEBF63; width: 151px; height: 55px; border:0; border-radius: 10px; "type="button" target="_blank" onclick="window.location.href='#'"> <span class="View-More">View More</span></button>
+        </div>
+
+    </div>
+
+</div>
 
 
 
