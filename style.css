@@ -934,6 +934,51 @@ td.Positive-reviews{
     line-height: 36px;
 }
 
+.Partner-Logo-Content{
+    /* Logos */
+
+position: absolute;
+width: 1013.98px;
+height: 72.98px;
+left: 270px;
+top: 3800px;
+
+
+}
+
+.partner-logo{
+    /* Logos */
+position: absolute;
+width: 600px;
+height: 12;
+left: 200px;
+top: 20px;
+
+}
+
+.Clients-Comment-Content{
+    position: absolute;
+    width: 1440px;
+    height: 683px;
+    left: 0px;
+    top: 3863px;
+    background-color: #EEBF63;
+}
+
+.Client-Comment{
+    position: absolute;
+    width: 1109;
+    height: 583px;
+
+    left: 165px;
+    top:3863px;
+    background-color: #4078c0;
+
+       
+}
+
+
+
 /*MEDİA SCREEN */ 
 @media only screen and (max-width:768px ) {
     
