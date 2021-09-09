@@ -26,6 +26,38 @@ header{
     
 }
 
+.stil{
+
+    position: absolute;
+    top: 105%;
+    left: 15px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.paragraf-stil{
+    position: absolute;
+    width: 240px;
+    height: 90px;
+    left: 0px;
+    top: 390px;
+    color: #828282;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
 
 /* Navbar */
 .navbar {
@@ -307,6 +339,7 @@ ul li
         color: #262626;
         z-index: 1;
         transition: .5s ease-in-out ;
+        
        
     }
     
@@ -563,25 +596,22 @@ td.Positive-reviews{
     width: 111.1%;
     height: 964px;
     right: 15%;
-    top:15%;
+    top:80%;
+    
 
 }
 
 .Recent-Projects-Header{
     position: absolute;
     width: 377px;
-    height: 62px;
-    left:165px;
-    top: 1534px;
-    z-index: 1;
-
+    left: 0px;
+    z-index: 3;
     
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 62px;
-
     color: #151517;
 }
 
@@ -774,6 +804,134 @@ td.Positive-reviews{
     text-align: center;
 
     color: #151517;
+}
+
+.Reason1{
+    position: absolute;
+    left: 200px;
+    top: 13%;
+    border-radius: 45px;
+    
+
+}
+
+.Reason2{
+    position: absolute;
+    left: 500px;
+    top: 13%;
+    border-radius: 45px;
+}
+
+.Reason3{
+    position: absolute;
+    left: 800px;
+    top: 13%;
+    border-radius: 45px;
+}
+
+.Reason4{
+    position: absolute;
+    left: 1100px;
+    top: 13%;
+    border-radius: 45px;
+}
+
+
+/*CONTENT-4*/
+
+.WorkingWithMe{
+    position: absolute;
+    width: 1440px;
+    height: 413px;
+    left: 0px;
+    top: 3233px;
+}
+
+.WorkingWithMe-Frame{
+    position: absolute;
+    width: 1110px;
+    height: 300px;
+    left: 220px;
+    top: 200px;
+    border-radius: 25px;
+    
+}
+
+.WorkingWithMe-Header{
+    position: absolute;
+    width: 265px;
+    height: 190px;
+    left: 85px;
+    top: 80px;
+    text-align: left;
+    align-items: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 129%;
+
+    
+}
+
+.Email-Button{
+    position: absolute;
+    width: 212.19px;
+    height: 70px;
+    left: 500px;
+    top: 122px;
+    border-radius: 10px;
+    border:0px;
+    box-shadow: 0px 0.927421px 1.92354px rgba(0,0,0, 0.00974257);
+    
+
+}
+
+.Projects-Button{
+    position: absolute;
+    width: 273.25px;
+    height: 70px;
+    left: 750px;
+    top: 122px;
+    border:solid;
+    border-radius: 10px;
+    background-color: #EEBF63;
+    border-color:#FFFFFF ;
+    
+}
+
+.mail-icon{
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+
+.SeeMoreProjects-Text{
+    position: absolute;
+    width: 217px;
+    height: 36px;
+    left: 25px;
+    top: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size:24px;
+    line-height: 36px;
+    
+}
+
+.Email-Button-Text{
+    position: absolute;
+    width: 217px;
+    height: 36px;
+    left: 15px;
+    top: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size:24px;
+    line-height: 36px;
 }
 
 /*MEDİA SCREEN */ 
