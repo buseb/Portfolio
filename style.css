@@ -958,11 +958,11 @@ top: 20px;
 
 .Clients-Comment-Content{
     position: absolute;
-    width: 1440px;
+    width: 1600px;
     height: 683px;
     left: 0px;
-    top: 3863px;
-    background-color: #EEBF63;
+    top: 3900px;
+    background-color: #6FC2C5;
 }
 
 .Client-Comment{
@@ -972,12 +972,54 @@ top: 20px;
 
     left: 165px;
     top:3863px;
-    background-color: #4078c0;
+    color: #E9E9E9;
 
        
 }
 
+.Client-Header{
+    position: relative;
+    left: 415px;
+    top: 0px;
+    color:#FFFFFF ;
+}
 
+.Comment1{
+    position: absolute;
+    width: 529px;
+    height: 351px;
+    left: 165px;
+    top: 35%;
+    border-radius: 30px 0px 30px 30px;
+    
+
+    
+}
+
+.Comment-Text{
+    color: #151517;
+    width: 490px;
+    height: 155px;
+    left: 50%;
+    top: 25%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    
+
+
+}
+
+.Comment2{
+    position: absolute;
+    width: 529px;
+    height: 351px;
+    left: 850px;
+    top: 35%;
+    border-radius: 30px 0px 30px 30px;
+}
 
 /*MEDİA SCREEN */ 
 @media only screen and (max-width:768px ) {
